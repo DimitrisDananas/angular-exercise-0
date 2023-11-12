@@ -1,0 +1,6 @@
+<div>
+    <ul *ngIf="oddLengthWords.length > 0">
+        <li *ngFor="let word of oddLengthWords">{{ word }}</li>
+    </ul>
+    <p *ngIf="oddLengthWords.length === 0">No odd words</p>
+</div>

@@ -1,0 +1,6 @@
+<div>
+    <ul *ngIf="evenLengthWords.length > 0">
+        <li *ngFor="let word of evenLengthWords">{{ word }}</li>
+    </ul>
+    <p *ngIf="evenLengthWords.length === 0">No even words</p>
+</div>
